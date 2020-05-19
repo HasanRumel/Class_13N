@@ -1,0 +1,386 @@
+/*topper start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+.topper{
+	background-color: #535D69;
+}
+.wrapper{
+	width: 70%;
+	margin: 0 auto;
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+}
+.W{
+	font-family: sans-serif;
+	font-size: 17px;
+	float: left;
+	padding-top: 6px;
+	color: #fff;
+}
+.t_logo {
+	width: 65%;
+	float: right;
+}
+
+.t_logo ul {
+	float: right;
+	display: inline;
+	margin: 0 auto;
+}
+.t_logo ul li {
+	padding-top: 8px;
+	list-style: none;
+	float: left;
+}
+
+.t_logo ul li a{
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.t_logo ul li a:hover{
+	color: #BD233F;
+}
+
+.t_logo ul button{
+	width: 120px;
+	height: 35px;
+	background-color: #B8243E;
+	border: none;
+	color: white;
+	font-family:sans-serif; 
+	font-size:16px;
+	cursor: pointer;
+}
+/*topper end*/
+/*header start*/
+header{
+	padding: 5px 0;
+	/*border: 1px solid black;*/	
+}
+.logo {
+	width: 18%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	width: 77%;
+	/*border: 1px solid red;*/
+	float: right;
+	margin-top: 5px;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	display: inline-block;
+	padding: 0 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #535D69;
+	text-decoration: none;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
+.menu ul li a:hover{
+	color: #C32F47;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	height: 480px;
+	background-image: url(../images/notary.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover; 
+	background-size: cover;
+	background-position: center;
+}
+.b_content{
+	width: 35%;
+	/*border: 1px solid red;*/
+	margin: 97px 0;
+}
+.b_content h1{
+	font-family:sans-serif;
+	font-size: 40px;
+	color: white;
+	text-transform: capitalize;
+	margin: 0 0 25px;
+}
+.b_content p{
+	font-family:sans-serif;
+    font-size: 12px;
+	color: white;
+}
+.b_content button{
+	width: 200px;
+	height:35px;
+	margin: 20px 0 0 0px;
+	background-color: #C32F47;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-family:sans-serif; 
+	font-size:10px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+/*banner end*/
+/*work start*/
+.setup{}
+.setup_titel{
+	text-align: center;
+	margin: 50px 0 40px;
+}
+.setup_titel h1{
+	font-family:sans-serif;
+	font-size: 25px;
+	color: #1B1B1B;
+	text-transform: uppercase;
+	line-height: 10px;
+}
+.setup_titel p{
+	font-family: sans-serif;
+	color: #535D69;
+}
+.setup_item{
+	width: 27%;
+	text-align: center;
+	/*border: 1px solid red;*/
+	margin: 0px 32px;
+	float: left;
+}
+.setup_item img{
+	width: 50%;
+	cursor: pointer;
+}
+.setup_item p{
+	font-family:sans-serif;
+	font-weight: 600; 
+	font-size:14px;
+	color: #3D3D47;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	line-height: 17px;
+}
+/*work end*/
+/*process start*/
+.process{
+	background-color: #F4F4F4;
+}
+.process_bg{
+	width: 45%;
+    /*border: 1px solid red;*/
+    margin-top: 70px;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 55px;
+    padding-left: 25px;
+    float: left;
+}
+.process_bg h1{
+	text-transform: uppercase;
+}
+.process_bg p{
+	font-family:sans-serif;
+	color: #3D3D47;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding: 0px 51px 0px 0px;
+	line-height: 17px;
+}
+.process_bg button{
+	width: 120px;
+    height: 38px;
+	background-color: #C32F47;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-family:sans-serif; 
+	font-size:10px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.process_bg img{
+	width: 90%;
+}
+/*process end*/
+/*features start*/
+.features{}
+.f_titel{
+	text-align: center;
+	margin: 50px 0 40px;
+}
+.f_titel h1{
+	font-family:sans-serif;
+	font-size: 25px;
+	color: #1B1B1B;
+	text-transform: uppercase;
+	line-height: 10px;
+}
+.f_titel p{
+	font-family: sans-serif;
+	color: #535D69;
+}
+.f_item{
+	text-align: center;
+	margin: 0 auto;
+	width: 29%;
+	display: inline-block;
+	margin: 20px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	float: left;
+	cursor: pointer;
+}
+.f_item i{
+	font-size: 40px;
+	color: darkgray;
+	padding: 25px 0;
+}
+.f_item:hover i{
+	color: #C32F47;
+}
+.f_item h3{
+	font-family:sans-serif;
+	font-size: 18px;
+	color: #1B1B1B;
+	text-transform: capitalize;
+}
+.f_item p{
+	color: #999;
+	padding: 15px 25px;
+}
+.f_item:hover{
+	transform: scale(1.1);
+	-webkit-box-shadow: 1px 1px 35px -13px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 5px #989898;
+	transition: .5s;
+}
+
+.fratures_button{
+	display: block;
+    margin: 3em auto;
+    background-color: #fff;
+    color: #BD233F;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+	-webkit-box-shadow: 1px 1px 35px -13px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 35px -13px rgba(0,0,0,0.75);
+	box-shadow: 8px 8px 39px -9px rgba(0,0,0,0.75);
+}
+/*features end*/
+/*footer start*/
+.footer{
+	background-color: black;
+}
+.footer_titel{
+	padding: 50px 0;
+	/*border: 1px solid white;*/
+	float: left;
+}
+.footer_titel h1{
+    display: inline-block;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #BD233F;
+    margin-bottom: 30px;
+}
+.footer_item{
+	margin: 0 auto;
+}
+.footer_item ul{
+	margin-left: -39px;
+	list-style: none;
+}
+.footer_item ul li{
+	padding: 3px 0;
+	color: #535B65;
+}
+.footer_item ul li a{
+	color: #535B65;
+	text-decoration: none;
+}
+.footer_item ul li i{
+	color: #BD233F;
+	width: 25px;
+}
+.footer_item ul li a:hover{
+	color: #BD233F;
+	transition: .5s;
+}
+.social-media {
+	padding: 24px 0;
+}
+.social-media i {
+	background-color: #000;
+	color: #535B65;
+	font-size: 25px;
+	padding-right: 10px;
+}
+.social-media i:hover {
+	color: #BD233F;
+	transition: .5s;
+}
+.footer_titel2{}
+.footer_titel2 h1{
+	display: inline-block;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #BD233F;
+    margin-bottom: 30px;
+}
+.footer_titel p{
+	font-family: sans-serif;
+	color: #535B65;
+}
+.Email_Box{}
+.Control,
+.Submit_button{
+	width: 39%;
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 15px;
+	outline: none;
+	background-color: transparent;
+}
+.Submit_button{
+	margin-left: -15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #BD233F;
+	border: 2px solid #BD233F;
+	color: #fff;
+	cursor: pointer;
+}
+/*footer end*/
+/*ender start*/
+.ender{
+	background-color: #535D69;
+}
+.E{
+	background-color: #535D69;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+}
+/*ender end*/
